@@ -2,7 +2,7 @@
 
 Keywind is a component-based Keycloak Login Theme built with [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss) and [Alpine.js](https://github.com/alpinejs/alpine).
 
-![Preview](./preview.png)
+![Preview](assets/preview.png)
 
 ### Styled Pages
 
@@ -31,6 +31,7 @@ Keywind is a component-based Keycloak Login Theme built with [Tailwind CSS](http
 ### Identity Provider Icons
 
 - Bitbucket
+- Discord
 - Facebook
 - GitHub
 - GitLab
