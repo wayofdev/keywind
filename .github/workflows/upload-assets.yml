@@ -36,10 +36,9 @@ jobs:
           path: |
             ${{ github.workspace }}/.cache
             ${{ github.workspace }}/**/tsconfig.tsbuildinfo
-
-          key: ${{ runner.os }}-packages-cache-${{ hashFiles('**/pnpm*.yaml') }}-${{ hashFiles('packages/**.[jt]sx?', 'packages/**.json') }}
+          key: ${{ runner.os }}-packages-cache-${{ hashFiles('**/pnpm*.yaml') }}
           restore-keys: |
-            ${{ runner.os }}-packages-cache-${{ hashFiles('**/pnpm*.yaml') }}-
+            ${{ runner.os }}-packages-cache-${{ hashFiles('**/pnpm*.yaml') }}
 
       - name: 🚀 Generate dist files
         run: pnpm build:jar
