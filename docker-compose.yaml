@@ -3,7 +3,7 @@ version: '3.9'
 
 services:
   keycloak-database:
-    image: postgres:15-alpine
+    image: postgres:16-alpine
     container_name: keywind_keycloak_db
     restart: on-failure
     volumes:
